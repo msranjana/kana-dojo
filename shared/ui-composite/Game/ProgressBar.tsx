@@ -91,7 +91,7 @@ ProgressBarProps) => {
         {[50].map(cp => (
           <div
             key={cp}
-            className='absolute top-0 z-0 h-4 w-0.75 bg-(--border-color)'
+            className='absolute top-0 z-0 h-4 w-0 bg-(--border-color)'
             style={{
               left: `calc(${cp}% - 1px)`,
             }}

@@ -206,10 +206,10 @@ const Return = ({ isHidden, gameMode, onQuit }: ReturnProps) => {
         {/* Stats button - visible only on small screens */}
         <ActionButton
           borderRadius='xl'
-          className='w-auto px-3 py-1 text-xl sm:hidden animate-float [--float-distance:-2px]'
+          className='w-auto px-2 py-1 text-xl sm:hidden animate-float [--float-distance:-1px]'
           onClick={handleShowStats}
         >
-          <ChartSpline size={24} />
+          <ChartSpline size={22} />
         </ActionButton>
       </div>
 
@@ -279,7 +279,7 @@ const Return = ({ isHidden, gameMode, onQuit }: ReturnProps) => {
           <ActionButton
             borderRadius='2xl'
             borderBottomThickness={8}
-            className='hidden w-auto p-2 text-xl sm:flex md:px-6 animate-float [--float-distance:-4px]'
+            className='hidden w-auto py-2 text-xl sm:flex sm:px-6 animate-float [--float-distance:-3px]'
             onClick={handleShowStats}
           >
             <ChartSpline size={24} />
