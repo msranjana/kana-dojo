@@ -7,6 +7,7 @@ import { useAudioPreferences, useThemePreferences } from '@/features/Preferences
 import { useJapaneseTTS } from '@/features/Preferences/hooks/useJapaneseTTS';
 import FuriganaText from '@/shared/ui-composite/text/FuriganaText';
 import { useClick } from '@/shared/hooks/generic/useAudio';
+import { removeVerbDuplicates } from '@/shared/utils/meanings';
 import { Volume2 } from 'lucide-react';
 import { memo, useCallback } from 'react';
 
@@ -236,7 +237,7 @@ const KanjiSetDictionary = memo(function KanjiSetDictionary({
           </div>
 
           <p className='w-full text-xl text-(--secondary-color) md:text-2xl'>
-            {kanjiObj.meanings.join(', ')}
+            {removeVerbDuplicates(kanjiObj.meanings).join(', ')}
           </p>
         </div>
       ))}
