@@ -70,5 +70,14 @@
     "season": "Summer",
     "kigo": "Summer rain (samidare)",
     "notes": "A dynamic river image with strong seasonal presence."
-  }
+  },
+  {
+  "japanese": "しばらくは\n花の上なる\n月夜かな",
+  "romaji": "Shibaraku wa / hana no ue naru / tsukiyo kana",
+  "english": "For a while, moonlight rests above the blossoms.",
+  "poet": "Matsuo Basho",
+  "season": "Spring",
+  "kigo": "Blossoms (hana)",
+  "notes": "A quiet scene balancing moonlight and cherry blossoms."
+}
 ]
