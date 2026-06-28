@@ -5,7 +5,13 @@
     "english": "Not knowing is Buddha",
     "meaning": "Ignorance is bliss"
   },
-  {
+ ,
+{
+  "japanese": "猿も木から落ちる",
+  "romaji": "Saru mo ki kara ochiru", 
+  "english": "Even monkeys fall from trees",
+  "meaning": "Even experts make mistakes"
+} {
     "japanese": "馬子にも衣装",
     "romaji": "Mago ni mo ishou",
     "english": "Even a packhorse driver looks good in fine clothes",
